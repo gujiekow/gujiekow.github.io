@@ -14,6 +14,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YCooaCQJoevRI7hoOe9udGk7MD" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,6 +49,7 @@
       <workItem from="1582545681217" duration="126000" />
       <workItem from="1582545826043" duration="6901000" />
       <workItem from="1582595928498" duration="108000" />
+      <workItem from="1582596275987" duration="1142000" />
     </task>
     <servers />
   </component>
@@ -73,9 +77,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1515" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582456734671" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1582551334752">
+    <state x="418" y="102" width="672" height="678" key="search.everywhere.popup" timestamp="1582597194479">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1582551334752" />
+    <state x="418" y="102" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1582597194479" />
   </component>
 </project>
