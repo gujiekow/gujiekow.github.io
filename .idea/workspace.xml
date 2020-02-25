@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="864f846e-5fd1-44de-b0ca-f8814979c18d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YCooaCQJoevRI7hoOe9udGk7MD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DayDay UP\gujiekow" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="864f846e-5fd1-44de-b0ca-f8814979c18d" name="Default Changelist" comment="" />
+      <created>1582456112905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582456112905</updated>
+      <workItem from="1582456114825" duration="617000" />
+      <workItem from="1582545681217" duration="126000" />
+      <workItem from="1582545826043" duration="6901000" />
+      <workItem from="1582595928498" duration="108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="548" y="159" key="FileChooserDialogImpl" timestamp="1582545800662">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="548" y="159" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1582545800662" />
+    <state width="1515" height="214" key="GridCell.Tab.0.bottom" timestamp="1582456734671">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1515" height="214" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1582456734671" />
+    <state width="1515" height="214" key="GridCell.Tab.0.center" timestamp="1582456734671">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1515" height="214" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1582456734671" />
+    <state width="1515" height="214" key="GridCell.Tab.0.left" timestamp="1582456734671">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1515" height="214" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1582456734671" />
+    <state width="1515" height="214" key="GridCell.Tab.0.right" timestamp="1582456734671">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1515" height="214" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1582456734671" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1582551334752">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1582551334752" />
+  </component>
+</project>
