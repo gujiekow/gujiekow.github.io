@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #div1{float:left;width: 200px;height: 200px;background-color: purple;border:1px solid red;}
+        #div2{float:left;width: 200px;height: 200px;background-color:yellow;border:1px solid red;}
+        #div3{float:left;width: 200px;height: 200px;background-color:green;border:1px solid red;}
+        #div4{float:left;width: 200px;height: 200px;background-color:grey;border:1px solid red;}
+        #div5{float:left;width: 200px;height: 200px;background-color: purple;border:1px solid red;}
+        #div6{float:left;width: 200px;height: 200px;background-color:yellow;border:1px solid red;}
+        #div7{float:left;width: 200px;height: 200px;background-color:green;border:1px solid red;}
+        #div8{float:left;width: 200px;height: 200px;background-color:grey;border:1px solid red;}
+    </style>
+
+<body>
+<div id="div1"></div>
+<div id="div2"></div>
+<div id="div3"></div>
+<div id="div4"></div>
+<div id="div5"></div>
+<div id="div6"></div>
+<div id="div7"></div>
+<div id="div8"></div>
+<img src="images/bigsmail2.gif" id="img1" alt=""/>
+<img src="images/wf_foot_icon01.gif" alt="" id="img2" />
+<img src="images/sad2.gif" alt="" id="img3" />
+
+<script>
+var d1,imgA,d2,msg,d3,d4,d5,d6,d7,d8;
+window.onload=function(){
+d1=document.getElementById('div1');
+imgA=document.getElementsByTagName("img");
+d2=document.getElementById('div2');
+d3=document.getElementById('div3');
+d4=document.getElementById('div4');
+d5=document.getElementById('div5');
+d6=document.getElementById('div6');
+d7=document.getElementById('div7');
+d8=document.getElementById('div8');
+for(var i=0;i<imgA.length;i++){
+imgA[i].ondragstart=function(e) {//开始拖动
+e.dataTransfer.setData("tupian", this.id);
+console.log(e);//（这里可以监听打印出图片的信息，尤其是dataTransfer对象）
+//$(this).clone().appendTo("#div1");（这个可以同一张图片克隆多张，你们加上可以试试看效果）
+}
+}
+d1.ondragover=function(e){//取消默认事件
+e.preventDefault();
+};
+d1.ondrop=function(e){//接收img
+e.preventDefault();
+var i = document.getElementById(e.dataTransfer.getData("tupian"));
+this.appendChild(i);
+//show(e.dataTransfer);//监听图片
+};
+d2.ondragover=function(e){//取消默认事件
+e.preventDefault();
+};
+d2.ondrop=function(e){//接收img
+e.preventDefault();
+var i = document.getElementById(e.dataTransfer.getData("tupian"));
+this.appendChild(i);
+};
+d3.ondragover=function(e){//取消默认事件
+e.preventDefault();
+};
+d3.ondrop=function(e){//接收img
+e.preventDefault();
+var i = document.getElementById(e.dataTransfer.getData("tupian"));
+this.appendChild(i);
+};
+d4.ondragover=function(e){//取消默认事件
+e.preventDefault();
+};
+d4.ondrop=function(e){//接收img
+    e.preventDefault();
+var i = document.getElementById(e.dataTransfer.getData("tupian"));
+this.appendChild(i);
+};
+d5.ondragover=function(e){//取消默认事件
+e.preventDefault();
+};
+d5.ondrop=function(e){//接收img
+e.preventDefault();
+var i = document.getElementById(e.dataTransfer.getData("tupian"));
+this.appendChild(i);
+//show(e.dataTransfer);//监听图片
+};
+d6.ondragover=function(e){//取消默认事件
+e.preventDefault();
+};
+d6.ondrop=function(e){//接收img
+e.preventDefault();
+var i = document.getElementById(e.dataTransfer.getData("tupian"));
+this.appendChild(i);
+};
+d7.ondragover=function(e){//取消默认事件
+e.preventDefault();
+};
+d7.ondrop=function(e){//接收img
+e.preventDefault();
+var i = document.getElementById(e.dataTransfer.getData("tupian"));
+this.appendChild(i);
+};
+d8.ondragover=function(e){//取消默认事件
+e.preventDefault();
+};
+d8.ondrop=function(e){//接收img
+e.preventDefault();
+var i = document.getElementById(e.dataTransfer.getData("tupian"));
+this.appendChild(i);
+};
+};
+function show(event){//监听图片信息
+var text = '';
+for(var i in event){
+text+=i+":"+event[i]+"<br/>";//键值对，键是i，值是event
+}
+d2.innerHTML=text;
+}
+</script>
+
+</body>
+</html>
